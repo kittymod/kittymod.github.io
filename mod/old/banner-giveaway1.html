@@ -1,0 +1,15 @@
+<a id="kittyAdAnchor" onclick="ga('ktr.send', 'event', 'Ad', 'click', 'giveaway1');" target="_blank" href="https://kittymod.github.io/xmas-giveaway.html">
+</a>
+
+<script>
+  var imgUrl = "https://kittymod.github.io/mod/res/banner-xmas.png";
+  var $img = $('<img id="kittyAdImg" height="55px" src="'+ imgUrl +'" style="width: 100%">');
+
+  $img.on('load', function() { ga('ktr.send', 'event', 'Ad', 'load', 'giveaway1'); });
+  
+  $img.on('error', function() { ga('ktr.send', 'event', 'Ad', 'loadError', 'giveaway1'); });
+
+  $('#kittyAdAnchor').prepend($img);
+  
+  $("#kittyAds").tooltip({title: "Win 50K Agario coins + 2 rare skins!", placement: "left"});
+</script>
