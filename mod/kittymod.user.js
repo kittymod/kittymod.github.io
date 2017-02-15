@@ -2,7 +2,7 @@
 // ==UserScript==
 // @name         KITTY mod
 // @namespace    ogario.v2
-// @version      2.7.0
+// @version      2.7.1
 // @description  KITTY mod (auto coins + search engine + minimap + chat + youtube player + ogario)
 // @author       szymy and KITTY (mod only)
 // @icon         https://kittymod.github.io/mod/logo.png
